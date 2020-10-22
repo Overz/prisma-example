@@ -2,6 +2,8 @@
 
 - npx prisma init
 
+Para utilizar os comandos abaixo, é preciso construir os "models" dentro do `schema.prisma`. Para mais informação leia a [documentação](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch-sql-typescript-postgres)
+
 - `yarn prisma migrate save --experimental` => cria uma pasta com as informações das migrations
 
 - `yarn prisma migrate up --experimental` => cria as migrations no db
